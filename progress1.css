@@ -1,0 +1,388 @@
+/* Default CSS */
+
+body{
+	background: #EEF9FF;
+	text-align:center;
+	PADDING: 0px; 
+	MARGIN: 0px; 
+	font-family:verdana, tahoma, arial, sans-serif;
+	font-size: 14px;
+	color: #11111; 	
+}
+
+p{
+	font-family:verdana, tahoma, arial, sans-serif;;
+    line-height:1.15em; 	
+}
+h1{
+   font-size: 22px;
+   font-weight:bold;
+ }
+h2{
+    font-size:18px;
+    font-weight:normal;
+ }
+h3{
+    font-size: 16px;
+    font-weight:bold;
+ }
+ 
+#sheet{
+	background-color: #ffffff;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #01A6FF;
+}
+
+#container {
+	MARGIN-LEFT: auto; 
+    WIDTH: 760px; 
+    MARGIN-RIGHT: auto; 
+    TEXT-ALIGN: left;
+    margin-top:15px;
+}
+
+#header{
+    height:29px;
+    margin-bottom:0px;
+	}
+
+#contentbody{
+	PADDING-RIGHT: 10px; 
+	PADDING-LEFT: 10px; 
+	text-align:left;
+    margin-top: 0px;
+    min-height:600px;
+}
+
+#startform form{
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin:auto;
+    position:relative;
+    max-width:350px;
+    min-height:250px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+ }
+
+#startform input{  
+     width:200px;
+     display:block;
+     border: 1px solid #999;
+     height: 2em;
+     -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+ }
+
+#bardivs {
+    position:relative;
+    width: 690px;
+}
+#progresstext {
+    position:absolute;
+    top:0;
+    left:0;
+    padding-top:6px;
+    width: 710px;
+}
+.progresstbl {
+    border: none;
+    width: 690px;
+    border-spacing:0px;
+    padding: 1px;
+  }
+.progresstbl-td 
+{
+    width:4%;
+    text-align:right;
+    padding-right:5px;
+    font-size:12px;
+    vertical-align:middle;
+ }
+
+#questionbox{
+    width: 85%;
+    margin: auto;
+    padding-bottom:20px;
+ }
+
+.questiontable{
+	width:90%;
+	margin: auto;
+	border-collapse: collapse;
+	border: 2px solid #DDDDDD;
+}
+
+.questiontable td{ 
+	padding: 8px;
+	border: 2px solid #DDDDDD;
+}
+
+.nextquestionbutton {
+   text-align: center;
+   float: right;
+   width: 175px;
+ }
+ 
+ .changelast{
+    width: 190px;
+  }
+  
+ #userinfo {
+   float: right;
+  }
+
+.blueButtonStyle {
+	background-color: #F0F8FF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #00ADEF;
+	cursor: pointer;
+}
+
+.blueButtonStyle:hover {
+	background-color: #00ADEF;
+}
+
+.greenButtonStyle {
+	background-color: #EDF6E2;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #8DC641;
+	cursor: pointer;
+}
+
+.greenButtonStyle:hover {
+	background-color: #8DC641;
+}
+
+.yellowButtonStyle {
+	background-color: #FEE7C4;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #FCAF3B;
+	cursor: pointer;
+	padding: 6px;
+	font-size: 1.5 em;
+	font-weight: bold;
+}
+
+.yellowButtonStyle:hover {
+	background-color: #FCAF3B;
+}
+
+#footer{
+	height:112px;
+	text-align: center;
+    color: #999999;
+    width: 90%;
+    margin: auto;
+}
+#footertext {
+    margin: 0px 20px 0px 20px;
+    text-align:center;
+    font-size:12px;
+    color: #999999;
+ }
+ /*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-device-pixel-ratio: 1.5) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+#container {
+    WIDTH: 676px; 
+}
+
+#bardivs {
+	  width: 622px;
+}
+
+#progresstext {
+      width: 640px;
+}
+.progresstbl {
+      width: 622px;
+  }
+
+#questionbox{
+      width: 90%;
+  }
+
+.questiontable{
+	  width:90%;
+}  
+
+}
+
+@media only screen and (max-width: 680px) {
+
+#container {
+    WIDTH: 598px; 
+}
+
+#bardivs {
+	  width: 551px;
+}
+
+#progresstext {
+      width: 567px;
+}
+.progresstbl {
+      width: 551px;
+  }
+
+#questionbox{
+      width: 90%;
+  }
+
+.questiontable{
+	  width:90%;
+}  
+.m1 {
+  display:none;
+ }
+}
+
+@media only screen and (max-width: 620px) {
+
+#container {
+    WIDTH:96%; 
+}
+
+#bardivs {
+	display: none;
+}
+
+#progresstext {
+	display: none;
+}
+.progresstbl {
+	display: none;
+  }
+
+#questionbox{
+      width: 90%;
+  }
+
+.questiontable{
+	  width:90%;
+}
+  
+}
+
+@media only screen and (max-width: 320px) {
+
+.m2 {
+  display:none;
+ }
+
+#sheet{
+	margin: 5px;
+	padding: 5px;
+   }
+
+#contentbody{
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+    }
+    
+.nextquestionbutton {
+   float: left;
+   margin: auto;
+  }
+ 
+ .changelast{
+    margin:auto;
+  }
+  
+ #userinfo {
+   float:left;
+   padding-bottom:10px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+
+#questionbox{
+      width: 98%;
+  }
+
+.questiontable{
+	  width:98%;
+  } 
+}
+ /*
+Tool Tips
+---------------------------------------------------------------------------------------------------- */
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
